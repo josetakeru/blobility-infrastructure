@@ -1,5 +1,4 @@
 provider "google" {
-    credentials = file()
     project     = "tier-blobility"
     region      = "europe-west3"
     zone        = "europe-west3-a"
